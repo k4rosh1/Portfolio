@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: rgb(229, 233, 6);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize  ;
+}
+nav ul li a:hover{
+    color: purple;
+    transform: .4s;
+}
+.content{
+    position:absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color:white;
+    font-size: 60px;
+    margin: 20px 0 20px;
+}
+h3{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgb(229, 233, 6);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-image: url(images/background-color.png);
+    background-size: cover;
+    padding-bottom: 0;
+}
+.about img{
+    height: auto;
+    width: 450px
+    
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+.service{
+    background-image: url(images/invert.png);
+    width: 100%;
+    padding: 100px 0;
+    background-size: cover;
+}
+.title h2{
+    color:white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    margin: 15px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    background: transparent;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.pra ul li{
+    color: white;
+    font-size: 25px;
+    line-height: 27px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+/* mv */
+
+.head {
+    background-image: url(images/pnc.png);
+    background-size: cover;
+
+}
+
+.head h1{
+    font-size: 40px;
+}
+
+
+.Vision{
+    width: 100%;
+    padding: 100px 0;
+    background-image: url(images/background-color.png);
+    background-size: cover;
+
+}
+.Vision-title{
+    color: white;
+    text-align: center;
+}
+.Vision p{
+    width: 600px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+.Mission{
+    width: 100%;
+    padding: 100px 0;
+    background-image: url(images/invert.png);
+    background-size: cover;
+
+}
+.Mission-title{
+    color: white;
+    text-align: center;
+}
+.Mission p{
+    width: 600px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.Mission{
+    width: 100%;
+    padding: 100px 0;
+    background-image: url(images/invert.png);
+    background-size: cover;
+
+}
+.Mission-title{
+    color: white;
+    text-align: center;
+}
+.Mission p{
+    width: 600px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+.first_mv{
+    display: flex;
+}
+
+.first_mv p{
+    transition: transform 0.5s;
+}
+.first_mv p:hover{
+    transform: translateY(-10px);
+}
+
+.quality_obj{
+    display: flex;
+    justify-content: space-around;
+
+}
+.quality_obj_section {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 100px;
+    
+}
+
+.quality_obj_section p{
+    color: white;
+    text-align: left;
+    justify-content: justify;
+    font-size: 25px;
+
+}
+
+.quality_obj-img{
+    background-image: url(images/books.png);
+    background-size: cover;
+}
+.graduate{
+    background-image: url(images/students.png);
+    background-size: cover;
+    padding-bottom: 15px;
+    margin-bottom: 0 ;
+}
+
+.graduate .quality_obj .quality_obj_section p{
+    font-size: 20px;
+}
+
+.social{
+    text-align: center;
+    background: rgb(63, 9, 63);
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+.social h4{
+    color: white;
+ 
+}
+.social i{
+    margin-top: 10px;
+    font-size: 50px;
+    width: 60px;
+    color: white;
+}
+.activity_bg{
+    background-image: url('images/pensi1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.activity_title h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.act_head{
+    background-image: url(images/invert.png);
+    background-size: cover;
+}
+
+.act_head h1{
+    font-size: 50px;
+}
+.small-container{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 1080px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 5px;
+    transition: transform 0.5s;
+}
+.col-3 h2{
+    font-weight: normal;
+}
+.col-3 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.col-3:hover{
+    transform: translateY(-5px);
+}
+.btn{
+    display: inline-block;
+    background: rgb(63, 9, 63);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: transform 0.5s;
+}
+.btn:hover{
+    background: #b6d40d;
+}
+.social .navbar {
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+}
+.social p{
+    color: white;
+}

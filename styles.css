@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+
+body {
+    min-height: 100vh;
+    background: url(https://www.lunar.ph/wp-content/uploads/2021/05/21A7CB1D-559E-4EFA-92A7-6C36E783D8F1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.wrapper{
+    margin: 70px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 420px;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    position: relative;
+ 
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px
+} 
+
+.remember-forgot label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color:white;
+    text-decoration: none;
+    
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .bttn{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    z-index: 2;
+    position: relative;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(120, 193, 120, 0.5); 
+}
+
+.bttn{ 
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    align-items: center;
+    display: block;
+}
